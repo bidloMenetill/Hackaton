@@ -1,0 +1,51 @@
+.section {
+    /* margin-top: 50PX; */
+ margin-bottom: 6%;
+}
+.section h2 {
+    color: #272727;
+font-family: Bebas Neue;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.25px;
+position: relative;
+display: flex;
+justify-content: end;
+margin-right: 40px;
+}
+.section h2::before {
+    position: absolute;
+    top: 30px;
+    right: 538px;
+    content: "";
+    display: block;
+    width: 151px;
+height: 1px;
+flex-shrink: 0;
+background: #FF6969;
+    margin-bottom: 10px; 
+  }
+  .conatiner_investors {
+    margin-top: 7%;
+  }
+  .row_of_investors1 {
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 70px;
+margin-left: 105px;
+  }
+  .row_of_investors2 {
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 70px;
+/* margin-left: 25px; */
+/* margin-left: 0; */
+  }
+  .row_of_investors3 {
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 70px;
+/* margin-left: 25px; */
+  }
