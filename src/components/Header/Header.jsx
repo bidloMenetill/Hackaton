@@ -1,12 +1,13 @@
 import React from 'react';
-import style from './Header.module.css'
+import style from "./Header.module.css"
 import {NavLink} from 'react-router-dom';
 const Header = () => {
     return (
-       <>
-       <header>
+        <header className={style.header}>
+        <section className={style.section}>
+
 <nav>
-    <ul>
+    <ul className={style.ul}>
         <li>
 <NavLink to='/' className={({isActive}) => 
     isActive ? 'menu_item active_link' : 'menu_item'
@@ -29,13 +30,12 @@ Home
 
 
         </li>
-  
-    </ul>
+        <button className={style.btn}>Бесплатный Аудит</button>
+    </ul >
 </nav>
 
+</section>
        </header>
-       
-       </>
     );
 };
 
