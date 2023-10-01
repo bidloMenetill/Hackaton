@@ -1,0 +1,128 @@
+.section {
+    /* margin-top: 50PX; */
+ margin-bottom: 6%;
+}
+.section h2 {
+    color: #272727;
+font-family: Bebas Neue;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.25px;
+position: relative;
+margin-left: 180px;
+}
+.section h2::before {
+    position: absolute;
+    top: 30px;
+    left: -180px;
+    content: "";
+    display: block;
+    width: 151px;
+height: 1px;
+flex-shrink: 0;
+background: #FF6969;
+    margin-bottom: 10px; 
+  }
+  .wrapper_for_algoritms {
+    position: relative;
+    display: flex;
+    
+   margin-top: 8%;
+   margin-bottom: 75px;
+    margin-left: 0;
+  }
+
+  
+  .wrapper_for_algoritms_2 {
+    display: flex;
+   
+    margin-bottom: 75px;
+  }
+
+  .wrapper_for_algoritms_3 {
+    display: flex;
+    
+    margin-bottom: 75px;
+  }
+  
+.wrapper_many_algoritms h3{
+    color: #272727;
+font-family: Bebas Neue;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.4px;
+}
+.wrapper_many_algoritms h4 {
+
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.25px;
+width: 62px;
+height: 63px;
+flex-shrink: 0;
+background: #FF6969;
+margin-bottom: 20px;
+margin-left: -18px;
+}
+.wrapper_many_algoritms p {
+    color: #272727;
+font-family: Bebas Neue;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.1px;
+width: 372px;
+}
+.wrapper_many_algoritms {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    
+}
+.wrapper_for_algoritms,
+.wrapper_for_algoritms_2,
+.wrapper_for_algoritms_3 {
+
+ position: relative;
+ 
+}
+
+.wrapper_for_algoritms > div::after,
+.wrapper_for_algoritms_2 > div::after,
+.wrapper_for_algoritms_3 > div::after {
+  content: '';
+  position: absolute;
+  top: 63px;
+  left: -17px;
+  width: 1px;
+ 
+  height: 143px; 
+  background-color: #041C4A 
+  
+}
+.wrapper_for_algoritms > div {
+  position: relative;
+  
+  
+}
+.wrapper_for_algoritms_2 > div {
+  position: relative;
+  
+  
+}
+.wrapper_for_algoritms_3 > div {
+  position: relative;
+  
+  
+}

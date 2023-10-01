@@ -1,0 +1,98 @@
+.section {
+
+ margin-top: 10%;
+}
+.section h2 {
+    color: #272727;
+font-family: Bebas Neue;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.25px;
+position: relative;
+display: flex;
+justify-content: start;
+margin-right: 40px;
+}
+.section h2::after {
+    position: absolute;
+    top: 35px;
+    left: 220px;
+    content: "";
+    display: block;
+    width: 151px;
+height: 1px;
+flex-shrink: 0;
+background: #FF6969;
+    margin-bottom: 10px; 
+  }
+  .containerForReviews {
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+  }
+  .containerForReviews p {
+    color: #272727;
+font-family: Bebas Neue;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.4px;
+margin-right: 50px;
+  }
+  .containerinfoHuman > h3 {
+    color: #272727;
+    font-family: Bebas Neue;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  .containerinfoHuman > h4 {
+    color: #272727;
+    font-family: Bebas Neue;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    letter-spacing: 0.9px;
+  }
+  .reviewsArrow {
+    /* margin-right: -140px; */
+    margin-right: -150px;
+    width: 75px;
+height: 75px;
+flex-shrink: 0;
+background: #041C4A;
+  }
+  .reviewsArrow2 {
+    margin-top: 75px;
+    /* margin-left: -200px; */
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    background: wheat;
+  }
+.reviewsArrow img {
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.reviewsArrow2 img {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.changeHuman {
+    position: absolute;
+    bottom: 30px;
+    right: -10px;
+    width: 87px;
+height: 12px;
+flex-shrink: 0;
+
+}

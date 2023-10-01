@@ -1,0 +1,146 @@
+.section {
+    /* margin-top: 50PX; */
+ margin-top: 12%;
+
+
+
+}
+
+.section h2 {
+    color: #272727;
+font-family: Bebas Neue;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.25px;
+position: relative;
+display: flex;
+justify-content: center;
+margin-right: 40px;
+}
+.section h2::before {
+    position: absolute;
+    top: 30px;
+    right: 270px;
+    content: "";
+    display: block;
+    width: 120px;
+height: 1px;
+flex-shrink: 0;
+background: #FF6969;
+    margin-bottom: 10px; 
+  }
+.section h2::after {
+    position: absolute;
+    top: 30px;
+    left: 270px;
+    content: "";
+    display: block;
+    width: 120px;
+height: 1px;
+flex-shrink: 0;
+background: #FF6969;
+    margin-bottom: 10px; 
+  }
+  .wrapper_blog {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .blog1 {
+    width: 30%;
+    height: 451px;
+    background: #F8F8F8;
+  
+  }
+  .blog1 img {
+    width: 80%;
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  .wrapper_blog h3 {
+    color: #272727;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    margin-top: 20px;
+    margin-left: 32px;
+  }
+  .wrapper_blog h4 {
+    color: #212121;
+font-family: Bebas Neue;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 21.6px */
+letter-spacing: 0.9px;
+margin-top: 20px;
+margin-left: 32px;
+  }
+  .wrapper_blog p {
+    color: #FF6969;
+font-family: Bebas Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 18px */
+letter-spacing: 0.9px;
+margin-top: 30px;
+margin-left: 32px;
+  }
+  .wrapper_blog p::after {
+    
+  }
+  .blog2 {
+    width: 30%;
+    height: 451px;
+    background: #F8F8F8;
+  }
+  .blog2 img {
+    width: 80%;
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  .blog2 p {
+    margin-top: 100px;
+  }
+  .blog3 {
+    width: 30%;
+    height: 451px;
+    background: #F8F8F8;
+  }
+  .blog3 img {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 32px;
+  }
+.blog3 p {
+    margin-top: 45px;
+}
+.wrapper_blog .arrowBlog  {
+    width: 50px;
+height: 10px;
+flex-shrink: 0;
+margin-left: 160px;
+margin-top: -12px;
+}
+.section button {
+  width: 175px;
+  height: 58px;
+  flex-shrink: 0;
+  background: #041C4A;
+  color: #FFF;
+font-family: Bebas Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.9px;
+margin-top: 60px;
+margin-left: 440px;
+margin-bottom: 100px;
+}

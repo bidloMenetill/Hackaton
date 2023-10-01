@@ -1,0 +1,324 @@
+.section {
+    /* margin-top: 50PX; */
+ margin-top: 8%;
+
+
+
+}
+
+.section h2 {
+    color: #272727;
+font-family: Bebas Neue;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.25px;
+position: relative;
+display: flex;
+justify-content: center;
+margin-right: 40px;
+}
+.section h2::before {
+    position: absolute;
+    top: 30px;
+    right: 270px;
+    content: "";
+    display: block;
+    width: 120px;
+height: 1px;
+flex-shrink: 0;
+background: #FF6969;
+    margin-bottom: 10px; 
+  }
+.section h2::after {
+    position: absolute;
+    top: 30px;
+    left: 270px;
+    content: "";
+    display: block;
+    width: 120px;
+height: 1px;
+flex-shrink: 0;
+background: #FF6969;
+    margin-bottom: 10px; 
+  }
+  .alumswap {
+    position: relative;
+    width: 860px;
+height: 403px;
+flex-shrink: 0;
+background: #041C4A;
+display: flex;
+justify-content: start;
+margin: 0 auto;
+  }
+  .wrapper_alumswap {
+    position: relative;
+    margin-top: 55px;
+    display: flex;
+    width: 100%;
+  }
+  .alumswap > .alumswap_img {
+    position: absolute;
+    right: 40px;
+    top: -30px;
+    width: 117px;
+height: 117px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.15);
+  }
+  .alumswap_img > img {
+    margin-left: 20px;
+    margin-top: 17px;
+  }
+  .alumswap > h4 {color: #FF6969;
+    font-family: Bebas Neue;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.5px;
+ margin-top: 50px;
+ margin-left: 50px;
+    
+  }
+  .alumswap > p {
+    display: flex;
+    text-align: start;
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.1px;
+margin-top: 110px;
+margin-left: -200px;
+  }
+  .alumswap h5 {
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    margin-top: -30px;
+    margin-left: -10px;
+  }
+  .arrow1 {
+   margin-top: 180px;
+   margin-left: -530px;
+  
+  }
+  .arrow2 {
+   margin-top: 220px;
+   margin-left: -240px;
+  
+  }
+
+  .arrow1 > img {
+margin-top: 20px;
+margin-left: -45px;
+  }
+  .arrow2 > img {
+margin-top: 20px;
+margin-left: -26px;
+  }
+  .arrow2 > h5{
+    margin-left: 10px;
+  }
+  .info1  {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+  }
+  .info2 {
+    position: absolute ;
+    bottom: 40px;
+    left: 180px
+  }
+  .info3 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+   .info_p {
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.9px;
+  }
+  .info_h6 {
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.3px;
+  }
+.alumswap_2 {
+   
+    position: absolute;
+    left: -680px;
+    top: 30px;
+    width: 733.471px;
+    height: 343.708px;
+    flex-shrink: 0;
+background: #041C4A;
+display: flex;
+justify-content: start;
+margin: 0 auto;
+}
+.alumswap_2 > .alumswap_img {
+    position: absolute;
+    right: 40px;
+    top: -30px;
+    width: 117px;
+height: 117px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.15);
+  }
+  .alumswap_2 > h4 {color: #FF6969;
+    font-family: Bebas Neue;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.5px;
+ margin-top: 50px;
+ margin-left: 50px;
+    
+  }
+  .alumswap_2 > p {
+    display: flex;
+    text-align: start;
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.1px;
+margin-top: 110px;
+margin-left: -200px;
+  }
+  .alumswap_2 h5 {
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    margin-top: -30px;
+    margin-left: -10px;
+  }
+.alumswap_3 {
+  
+    position: absolute;
+    top: 30px;
+   right: -680px;
+    width: 733.471px;
+    height: 343.708px;
+    flex-shrink: 0;
+background: #041C4A;
+display: flex;
+justify-content: start;
+margin: 0 auto;
+}
+.alumswap_3 > .alumswap_img {
+    position: absolute;
+    right: 40px;
+    top: -30px;
+    width: 117px;
+height: 117px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.alumswap_3 > h4 {color: #FF6969;
+    font-family: Bebas Neue;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.5px;
+ margin-top: 50px;
+ margin-left: 50px;
+    
+  }
+  .alumswap_3 > p {
+    display: flex;
+    text-align: start;
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.1px;
+margin-top: 110px;
+margin-left: -200px;
+  }
+  .alumswap_3 h5 {
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    margin-top: -30px;
+    margin-left: -10px;
+  }
+  .arrow1_alumswap_3 {
+margin-top: 140px;
+margin-left: -530px;
+  }
+  .arrow2_alumswap_3 {
+margin-top: 180px;
+margin-left: -240px;
+  }
+  .arrow1_alumswap_3 > img {
+    margin-top: 20px;
+    margin-left: -45px;
+      }
+      .arrow2_alumswap_3 > img {
+    margin-top: 20px;
+    margin-left: -26px;
+      }
+      .arrow2_alumswap_3 > h5{
+        margin-left: 10px;
+      }
+     .changeBar {
+        margin-top: 6%;
+        display: flex;
+        justify-content: center;
+     }
+     .changeBar div {
+        width: 80px;
+height: 80px;
+flex-shrink: 0;
+background: var(--Red, #EB5757);
+     }
+     .changeImg {
+        width: 140px;
+height: 20px;
+flex-shrink: 0;
+margin: 30px 50px;
+     }
+     .arrow_change {
+        width: 50px;
+height: 50px;
+flex-shrink: 0;
+margin: 15px 15px;
+
+     }
