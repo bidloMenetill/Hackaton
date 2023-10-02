@@ -4,7 +4,7 @@ import img from './igames/image 21.png'
 import img2 from './igames/image 22.png'
 import img3 from './igames/image 23.png'
 import img4 from './igames/Vector.png'
-import img5 from './igames/Vector-2.png'
+import img6 from './igames/Vector-2.png'
 const Blog = () => {
     return (
         <>
@@ -196,7 +196,7 @@ const Blog = () => {
             <div className={style.last_color}>
                 <div className={style.last_color_}></div>
                 <div className={style.btn_wrapp}>
-                    <img src={img5} alt="" className={style.img__5} />
+                    <img src={img6} alt="" className={style.img__5} />
                 </div>
             </div>
             <div className={style.wrapp_color}></div>
