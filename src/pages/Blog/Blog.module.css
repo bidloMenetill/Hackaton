@@ -1,44 +1,67 @@
-.first_text {
-    position: absolute;
+.texth1 {
     width: 80px;
-    height: 45px;
-    left: 109px;
-    top: 113px;
+    height: 80px;
+
 }
 
-.first_text h1 {
+.texth1 h1 {
+    margin-left: 220px;
+    margin-top: 90px;
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 40px;
+    line-height: 40px;
     letter-spacing: 0.05em;
     color: #272727;
 }
 
 .color {
-    position: absolute;
+    margin-left: 350px;
     width: 151px;
     height: 1px;
-    left: 120px;
-    bottom: 25px;
+    left: 279px;
     background: #FF6969;
 }
 
-.first_img {
-    position: absolute;
-    width: 342px;
-    height: 270px;
-    left: 143px;
-    top: 232px;
+.section {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.first_img1 {
-    position: absolute;
-    width: 342px;
-    height: 270px;
-    left: 143px;
-    top: 643px;
+.first_img {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.thoo_img {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.three_img {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.four_img {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.five_img {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 100px;
 }
 
 h2 {
@@ -53,197 +76,23 @@ h2 {
 }
 
 h3 {
-    margin-top: 10px;
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 120%;
-    letter-spacing: 0.05em;
-    color: #212121;
-
-}
-
-h4 {
-    margin-top: 30px;
+    margin-top: 15px;
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+h4 {
+    margin-top: 15px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 100%;
     letter-spacing: 0.05em;
     color: #FF6969;
-}
-
-.first_img2 {
-    position: absolute;
-    width: 342px;
-    height: 270px;
-    left: 143px;
-    top: 1054px;
-}
-
-.first_img3 {
-    position: absolute;
-    width: 342px;
-    height: 270px;
-    left: 143px;
-    top: 1454px;
-}
-
-.first_img4 {
-    position: absolute;
-    width: 342px;
-    height: 270px;
-    left: 143px;
-    top: 1854px;
-}
-
-.center_img {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 600px;
-    top: 232px;
-}
-
-.center_img1 {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 600px;
-    top: 643px;
-}
-
-.center_img2 {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 600px;
-    top: 1054px;
-}
-
-.center_img3 {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 600px;
-    top: 1454px;
-}
-
-.center_img4 {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 600px;
-    top: 1854px;
-}
-
-.last_img {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 1020px;
-    top: 232px;
-}
-
-.last_img1 {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 1020px;
-    top: 643px;
-}
-
-.last_img2 {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 1020px;
-    top: 1054px;
-}
-
-.last_img3 {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 1020px;
-    top: 1454px;
-}
-
-.last_img4 {
-    position: absolute;
-    width: 362px;
-    height: 270px;
-    left: 1020px;
-    top: 1854px;
-}
-
-.last_color {
-    position: absolute;
-    width: 50px;
-    height: 45px;
-    left: 604px;
-    top: 2303px;
-    background: #EB5757;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.wrapp_color {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 685px;
-    top: 2320px;
-    background: #EB5757;
-}
-
-.wrapp_color1 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 720px;
-    top: 2320px;
-    border: 1px solid #EB5757;
-}
-
-.wrapp_color2 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 750px;
-    top: 2320px;
-    border: 1px solid #EB5757;
-}
-
-.wrapp_color3 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 780px;
-    top: 2320px;
-    border: 1px solid #EB5757;
-}
-
-.cub {
-    position: absolute;
-    width: 50px;
-    height: 45px;
-    left: 834px;
-    top: 2303px;
-    background: #EB5757;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.img__4 {
-    margin-top: 15px;
-    margin-left: 20px;
-}
-
-.img__5 {
-    margin-top: 15px;
-    margin-left: 20px;
 }
